@@ -3,11 +3,12 @@ MutEx School — C++ Masterclass : HPC
 
 ## Description
 TDD implementation of a Matrix class based on vectors.
-It should support the following (and not only) API:
--'Matrix<float> m(M, N), n(N, M);'
--'m[3][4] = 1.0f;'
--'Matrix<float> p = m * n;'
--'m[3] ? (within type)'    
+
+It should support the following API:
+- `Matrix<float> m(M, N), n(N, M);`
+- `m[3][4] = 1.0f;`
+- `Matrix<float> p = m * n;`
+- `m[3] ? (within type)`    
 
 ## Build & Run tests
 make run
